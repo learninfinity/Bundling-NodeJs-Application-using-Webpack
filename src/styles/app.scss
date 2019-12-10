@@ -1,0 +1,11 @@
+$bodyColor : rgb(255, 255, 255);
+$textColor : rgb(168, 23, 23);
+$textBackgroudColor : #1fa763;
+
+body{
+    background:$bodyColor;
+    h1,h2,h3,h4,h5,h6{
+        color: $textColor;
+        background: $textBackgroudColor;
+    }
+}
